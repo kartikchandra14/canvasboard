@@ -1,53 +1,54 @@
-.container{
+.container {
   // ..............MAIN.....................
-  .main{
-    .cb-title{
-      .heading{
+  .main {
+    // styling is for title
+    .cb-title {
+      .heading {
         margin-bottom: 0px;
-        padding-top:1rem;
-        padding-bottom:10px;
-        border-bottom:2px solid #999999;
+        padding-top: 1rem;
+        padding-bottom: 10px;
+        border-bottom: 2px solid #999999;
       }
 
-      .heading:focus{
+      .heading:focus {
         outline: none;
       }
-      }
+    }
 
-    .main-box{
-      display:block
+    .main-box {
+      display: block;
     }
   }
   //................. TOOLBOX.....................
-.toolbox{
-  .toolbox-main{
-    display:flex;
+  .toolbox {
+    .toolbox-main {
+      display: flex;
 
-    .tool{
-      // height: 100px;
-      // width: 100px;
+      .tool {
+        // height: 100px;
+        // width: 100px;
+      }
+      // .box1{
+      //   background-color: red;
+      // }
+      // .box2{
+      //   background-color: blue;
+      // }
+      // .box3{
+      //   background-color: yellow;
+      // }
+      // .box4{
+      //   background-color: pink;
+      // }
+      // .box5{
+      //   background-color: green;
+      // }
     }
-    // .box1{
-    //   background-color: red;
-    // }
-    // .box2{
-    //   background-color: blue;
-    // }
-    // .box3{
-    //   background-color: yellow;
-    // }
-    // .box4{
-    //   background-color: pink;
-    // }
-    // .box5{
-    //   background-color: green;
-    // }
   }
-}
 }
 
 //Essentials
-[contentEditable=true]:empty:not(:focus):before{
-  content:attr(data-text);
-  color:rgb(175, 175, 175);
+[contentEditable="true"]:empty:not(:focus):before {
+  content: attr(data-text);
+  color: rgb(175, 175, 175);
 }
