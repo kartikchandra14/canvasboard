@@ -1,6 +1,19 @@
 .container{
   // ..............MAIN.....................
   .main{
+    .cb-title{
+      .heading{
+        margin-bottom: 0px;
+        padding-top:1rem;
+        padding-bottom:10px;
+        border-bottom:2px solid #999999;
+      }
+
+      .heading:focus{
+        outline: none;
+      }
+      }
+
     .main-box{
       display:block
     }
