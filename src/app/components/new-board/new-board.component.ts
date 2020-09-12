@@ -11,10 +11,10 @@ export class NewBoardComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-    //Initials
     this.disableTitleEnter();
   }
 
+  // function to disable enter keyword in title.
   disableTitleEnter() {
     $("#title[contenteditable]").keypress(function (evt) {
       var keycode = evt.charCode || evt.keyCode;

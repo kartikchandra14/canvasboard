@@ -1,7 +1,7 @@
 .container {
   // ..............MAIN.....................
   .main {
-    // styling is for title
+    // style for creative-board title
     .cb-title {
       .heading {
         margin-bottom: 0px;
@@ -23,26 +23,6 @@
   .toolbox {
     .toolbox-main {
       display: flex;
-
-      .tool {
-        // height: 100px;
-        // width: 100px;
-      }
-      // .box1{
-      //   background-color: red;
-      // }
-      // .box2{
-      //   background-color: blue;
-      // }
-      // .box3{
-      //   background-color: yellow;
-      // }
-      // .box4{
-      //   background-color: pink;
-      // }
-      // .box5{
-      //   background-color: green;
-      // }
     }
   }
 }
